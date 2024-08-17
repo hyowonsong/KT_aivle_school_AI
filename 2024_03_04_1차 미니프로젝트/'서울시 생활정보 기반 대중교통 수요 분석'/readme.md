@@ -46,9 +46,6 @@ df = pd.merge(df, df_seoul_moving, how='inner', on='도착 시군구 코드')
 
 - 업종 밀집도와 노선 수의 관계 분석
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/71424d03-2f32-49e4-b7dd-5dc9218d5a30/image.png)
-
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/fc4008ae-0c41-41c0-80ee-c9784be08d13/image.png
 
 ### 4. 이변량 분석
 
@@ -56,19 +53,15 @@ df = pd.merge(df, df_seoul_moving, how='inner', on='도착 시군구 코드')
     - **상관계수:** -0.6367
     - **P-value:** 0.000621
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/a2e3806b-718f-4dd2-9512-bd5ece3f2c62/image.png
 
 - **가설 1-2:** 커피전문점 종사자가 많은 자치구는 버스 노선이 많다.
     - **상관계수:** 0.4699
     - **P-value:** 0.01777
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/98e8991d-3827-49cb-be7e-0e592c47cfb3/image.png
-
 - **가설 1-3:** 한식 일반 음식점업 종사자가 많은 자치구는 버스 노선이 많다.
     - **상관계수:** 0.4699
     - **P-value:** 0.0177
 
-!https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/92820d03-2633-4b00-85b8-1a5893b65717/image.png
 
 - **가설 2:** 20대 ~ 40대 이동 인구 비율이 많을수록 노선 수가 많다.
     - **상관계수:** 0.51604
@@ -77,15 +70,13 @@ df = pd.merge(df, df_seoul_moving, how='inner', on='도착 시군구 코드')
     **결과 : 전체적으로 20~40대 이동 인구 비율이 많을수록 노선의 수가 많음**
     
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/e34fa9e0-306f-44fe-ba24-86c89d01599a/image.png)
 
 - **가설 2-1:** 승하차 인구수가 많을수록 노선 수가 많다.
     - **상관계수:** 0.6852
     - **P-value:** 0.0001
     
     **결과 : 전체적으로 20~40대 이동 인구 비율이 높을수록 정류장의 수가 많다고 할 수 없음.**
-    
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/69c23b88-207a-465f-8981-282a503b8a08/image.png)
+  
     
 
 ---
