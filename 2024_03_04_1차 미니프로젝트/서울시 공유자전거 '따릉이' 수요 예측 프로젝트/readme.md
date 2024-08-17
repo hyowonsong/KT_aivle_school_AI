@@ -41,7 +41,6 @@ bins = [0, 6, 12, 18, 24]
 labels = ['0-6시', '6-12시', '12-18시', '18-24시']
 df['time_group'] = pd.cut(df['hour'], bins=bins, labels=labels, right=False)
 ```
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/5b809ba2-0959-4305-b61e-3706a7ddcc65/image.png)
 
 ---
 
@@ -58,8 +57,6 @@ plt.title('시간대별 평균 따릉이 대여량')
 plt.xticks(rotation=45)
 plt.show()
 ```
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/44ec5bd2-3831-49a0-a421-f07541200586/image.png)
 
 
 **결과:** 
@@ -88,13 +85,6 @@ plt.show()
 total_rental_weekday = df[df['weekend'] == 0]['count'].sum()
 total_rental_weekend = df[df['weekend'] == 1]['count'].sum()
 ```
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/db7cef81-e35a-444d-80fc-ba2138996426/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/bb2af25f-0b5c-4d58-8d6c-71f738895b26/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/2e35dbce-9bd7-4569-985a-c4381d124d47/image.png)
-
 
 **결과:**
 
