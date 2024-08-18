@@ -196,23 +196,3 @@ print(result["result"])
 ```
 
 ---
-
-## 👀 서비스 화면
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/3a49c456-627f-4e27-b5c9-cafc2a458d49/image.png)
-
-- 홈페이지 화면으로 CSV 업로드, Vector DB 확인, 채팅 기록 확인, 회원 가입, 로그인 기능으로 이동이 가능합니다.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/114200bf-e7c6-4cc5-8b6d-beed60c43939/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/4154c1a8-6c78-40c3-a429-c3b60121c512/image.png)
-
-- vector db 기록 확인 및 상담 내용이 기록됩니다.
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/f356c435-c5ef-4bd1-9c6a-bd66c90eb431/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/73daf8ed-e5ad-4899-8661-d18cbb1fba2c/image.png)
-
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/36358b89-fde5-4b16-95d9-7decef74047e/72e2be51-9268-43e1-8d5e-a7193d0e826b/image.png)
-
-- 회원 가입 및 로그인 후 챗봇 사용이 가능합니다.
